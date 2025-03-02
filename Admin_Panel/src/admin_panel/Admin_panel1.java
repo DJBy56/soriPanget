@@ -246,6 +246,8 @@ public class Admin_panel1 extends javax.swing.JFrame {
         txtcontactNo = new javax.swing.JTextField();
         btnprocess = new javax.swing.JButton();
         cbnationality = new javax.swing.JComboBox<>();
+        btnUploadPhoto = new javax.swing.JButton();
+        lblPhoto = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         txteducName = new javax.swing.JTextField();
@@ -363,11 +365,11 @@ public class Admin_panel1 extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel2.setText("Employee Id");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 12, -1, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel3.setText("First Name");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 63, -1, -1));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, -1, -1));
 
         txtEmployee_Id.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -377,58 +379,58 @@ public class Admin_panel1 extends javax.swing.JFrame {
                 txtEmployee_IdKeyTyped(evt);
             }
         });
-        jPanel2.add(txtEmployee_Id, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 35, 162, -1));
+        jPanel2.add(txtEmployee_Id, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 162, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel4.setText("Last Name");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 170, -1, -1));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel5.setText("Middle Name");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 116, -1, -1));
-        jPanel2.add(txtfirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 89, 162, -1));
-        jPanel2.add(txtmiddleName, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 142, 162, -1));
-        jPanel2.add(txtlastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 196, 162, -1));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, -1, -1));
+        jPanel2.add(txtfirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 162, -1));
+        jPanel2.add(txtmiddleName, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, 162, -1));
+        jPanel2.add(txtlastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 162, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel6.setText("Birthdate");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 224, -1, -1));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, -1, -1));
 
         jdcbirthdate.setDateFormatString("yyyy-MM-dd");
-        jPanel2.add(jdcbirthdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 250, 162, -1));
+        jPanel2.add(jdcbirthdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 162, -1));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel7.setText("Sex");
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, -1, -1));
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 10, -1, -1));
 
         sexGroup.add(rbtnfemale);
         rbtnfemale.setText("Female");
-        jPanel2.add(rbtnfemale, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 36, -1, -1));
+        jPanel2.add(rbtnfemale, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 30, -1, -1));
 
         sexGroup.add(rbtnmale);
         rbtnmale.setText("Male");
-        jPanel2.add(rbtnmale, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 36, -1, -1));
+        jPanel2.add(rbtnmale, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel8.setText("Age");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 278, -1, -1));
-        jPanel2.add(txtage, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 304, 162, -1));
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 280, -1, -1));
+        jPanel2.add(txtage, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 300, 162, -1));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel9.setText("Email");
-        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 63, -1, -1));
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 60, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel10.setText("Contact No.");
-        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 116, -1, -1));
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel11.setText("Nationality");
-        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, -1, -1));
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 170, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel12.setText("Address");
-        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 224, -1, -1));
+        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 220, -1, -1));
 
         txtaddress.setColumns(5);
         txtaddress.setLineWrap(true);
@@ -436,9 +438,9 @@ public class Admin_panel1 extends javax.swing.JFrame {
         txtaddress.setWrapStyleWord(true);
         jScrollPane1.setViewportView(txtaddress);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 160, 80));
-        jPanel2.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 89, 162, -1));
-        jPanel2.add(txtcontactNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 142, 162, -1));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 250, 160, 80));
+        jPanel2.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 90, 162, -1));
+        jPanel2.add(txtcontactNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 140, 162, -1));
 
         btnprocess.setText("Add");
         btnprocess.addActionListener(new java.awt.event.ActionListener() {
@@ -446,10 +448,21 @@ public class Admin_panel1 extends javax.swing.JFrame {
                 btnprocessActionPerformed(evt);
             }
         });
-        jPanel2.add(btnprocess, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 310, -1, 20));
+        jPanel2.add(btnprocess, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, -1, 20));
 
         cbnationality.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "American", "British", "Canadian", "Chinese", "Filipino\"", "French", "German", "Indian ", "Indonesian", "Italian", "Japanese", "Korean", "Mexican", "Russian", "Spanish ", "Thai", "Vietnamese ", "Australian\",", "Brazilian", "Egyptian", "Turkish", "South African", " Other" }));
-        jPanel2.add(cbnationality, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 196, 162, -1));
+        jPanel2.add(cbnationality, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 162, -1));
+
+        btnUploadPhoto.setText("Upload Photo");
+        btnUploadPhoto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUploadPhotoActionPerformed(evt);
+            }
+        });
+        jPanel2.add(btnUploadPhoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
+
+        lblPhoto.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.add(lblPhoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 170, 160));
 
         jTabbedPane1.addTab("Personal Information", jPanel2);
 
@@ -1222,6 +1235,33 @@ checkEmployeeId();        // TODO add your handling code here:
     checkEmployeeId();      // TODO add your handling code here:
     }//GEN-LAST:event_txtEmpIdEmploymentKeyTyped
 
+    private void btnUploadPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhotoActionPerformed
+        // TODO add your handling code here:
+        JFileChooser chooser = new JFileChooser();
+        chooser.showOpenDialog(null);
+        File file = chooser.getSelectedFile();
+
+        if (file != null) {
+            String filename = file.getAbsolutePath();
+            ImageIcon icon = new ImageIcon(new ImageIcon(filename).getImage().getScaledInstance(lblPhoto.getWidth(), lblPhoto.getHeight(), Image.SCALE_SMOOTH));
+            lblPhoto.setIcon(icon);
+
+            try {
+                FileInputStream fis = new FileInputStream(file);
+                ByteArrayOutputStream bos = new ByteArrayOutputStream();
+                byte[] buf = new byte[1024];
+                int readNum;
+                while ((readNum = fis.read(buf)) != -1) {
+                    bos.write(buf, 0, readNum);
+                }
+                person_image = bos.toByteArray(); // Convert image to bytes
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null, e);
+            }
+        }
+
+    }//GEN-LAST:event_btnUploadPhotoActionPerformed
+
   
 
 
@@ -1262,6 +1302,7 @@ checkEmployeeId();        // TODO add your handling code here:
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnProcessEducational;
     private javax.swing.JButton btnProcessEmployment;
+    private javax.swing.JButton btnUploadPhoto;
     private javax.swing.JButton btnprocess;
     private javax.swing.JComboBox<String> cbnationality;
     private javax.swing.JComboBox<String> cmbDepartment;
@@ -1329,6 +1370,7 @@ checkEmployeeId();        // TODO add your handling code here:
     private com.toedter.calendar.JDateChooser jdcdop;
     private com.toedter.calendar.JDateChooser jdcmasteralGraduation;
     private com.toedter.calendar.JDateChooser jdcyoe;
+    private javax.swing.JLabel lblPhoto;
     private javax.swing.JRadioButton rbtnResign;
     private javax.swing.JRadioButton rbtnRetired;
     private javax.swing.JRadioButton rbtnfemale;
